@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0px;
+    
+    box-sizing: border-box;
+}
+#name{
+    color:white;
+}
+body{
+    background-image: linear-gradient(to right,rgb(2, 20, 27),white);
+}
+.head{
+    display:flex;   
+    gap:10rem;
+}
+#in{
+    font-size:2rem;
+    color:white;
+    border:2px solid rgb(197, 195, 195);
+    border-radius:20px 0 0 20px;
+    padding:7px;
+    background-image:linear-gradient(to right,rgb(2, 22, 31));
+}
+#but{
+    font-size:2rem;
+    border-left:none;
+    border:2px solid rgb(207, 205, 205);
+    border-radius:0 20px 20px 0;
+    padding:7px;
+    background-image:linear-gradient(to right,rgb(2, 22, 31));
+}
+#but img{
+    
+    height: 28.5px;
+    width:40px;
+}
+.con{
+    font-family: "Roboto", sans-serif;
+    display:flex;
+    color:white;
+    flex-direction:column;
+    gap:50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.in{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    display:flex;
+    align-items:center;
+    margin-top :10px;
+    gap:300px;
+    color:white;
+}
+.temperature img{
+    height:150px;
+    width:auto;  
+}
+.wind img{
+    height:150px;
+    width:auto;
+}
+.description img{
+    height:150px;
+    width:auto;
+}
